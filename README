@@ -1,0 +1,26 @@
+Comparativa: 01-comparativa.webp
+
+HTTP es un protocolo de comunicación que se basa en el intercambio de mensajes entre un cliente y un servidor. Usa TCP como protocolo de transporte.
+
+El cliente realiza una petición y el servidor responde con una respuesta.
+
+Explicación: 02-http.webp
+
+Web Sockets es un protocolo de comunicación que se basa en el intercambio de mensajes entre un cliente y un servidor. Usa TCP como protocolo de transporte.
+
+La diferencia es que el cliente y el servidor pueden intercambiar mensajes en cualquier momento.
+
+Explicación: 03-websockets.webp
+
+Cuando HTTP es mejor:
+
+Para pedir recursos
+Recursos cacheables
+Para REST API y uso de metodos HTTP
+Sincronizar eventos
+Cuando Web Sockets es mejor:
+
+Para comunicación bidireccional
+Para comunicación en tiempo real
+Para comunicación de alta frecuencia
+Actualización con poca latencia
